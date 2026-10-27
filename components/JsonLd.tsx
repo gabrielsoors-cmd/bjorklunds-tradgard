@@ -1,4 +1,4 @@
-// Strukturerad data för Google. Innehållet kommer från våra egna innehållsfiler.
+// Strukturerad data för Google. Innehållet kommer från sajtens egna innehållsfiler.
 export function JsonLd({ data }: { data: Record<string, unknown> }) {
   return (
     <script

@@ -38,7 +38,7 @@ export default function Startsida() {
             name: site.name,
             url: site.url,
             logo: absoluteUrl("/logo.png"),
-            image: absoluteUrl("/opengraph-image"),
+            image: absoluteUrl("/delning.png"),
             email: site.email,
             telephone: site.phoneTel,
             address: {
@@ -66,10 +66,10 @@ export default function Startsida() {
             <p className="ingress mt-6 max-w-xl">{hero.ingress}</p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a href={mailto("Fråga till Björklunds Trädgård")} className="knapp">
-                Kontakta oss
+                Kontakta mig
               </a>
               <Link href="/#erbjudande" className="knapp knapp-ljus">
-                Se vad vi erbjuder
+                Se vad jag erbjuder
               </Link>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Startsida() {
         {/* Översikt */}
         <section id="erbjudande" aria-labelledby="erbjudande-rubrik" className="behallare pb-16 lg:pb-24">
           <h2 id="erbjudande-rubrik" className="sr-only">
-            Det här erbjuder vi
+            Det här erbjuder jag
           </h2>
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {erbjudanden.map((e) => {
@@ -118,7 +118,7 @@ export default function Startsida() {
         <section aria-labelledby="aret-rubrik" className="bg-meadow">
           <div className="behallare sektion">
             <h2 id="aret-rubrik" className="text-3xl sm:text-4xl">
-              Trädgårdsåret hos oss
+              Mitt trädgårdsår
             </h2>
             <ol className="relative mt-12 grid grid-cols-1 gap-8 lg:grid-cols-4 lg:gap-6">
               <span aria-hidden="true" className="absolute left-[0.6875rem] top-2 h-[calc(100%-1rem)] w-px bg-gold-light/60 lg:left-0 lg:top-[0.6875rem] lg:h-px lg:w-full" />
