@@ -45,14 +45,13 @@ export function SiteFooter() {
                 {site.email}
               </a>
             </li>
-            {site.phone ? (
-              <li>
-                <a href={telLink(site.phone)} className="transition-colors hover:text-paper">
-                  {site.phone}
-                </a>
-              </li>
-            ) : null}
-            <li>{site.adress || site.ort}</li>
+            <li>
+              <a href={telLink} className="transition-colors hover:text-paper">
+                {site.phone}
+              </a>
+            </li>
+            <li>{site.adress}</li>
+            <li className="pt-2 text-sm text-paper/60">Öppettiderna varierar. Hör av dig innan du kommer.</li>
           </ul>
         </div>
       </div>

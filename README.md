@@ -8,7 +8,7 @@ Byggd med Next.js 16 (App Router) och Tailwind CSS 4. Hostas på Vercel, som byg
 
 | Fil | Innehåll |
 | --- | --- |
-| `content/site.ts` | E-post, telefon, ort och adress |
+| `content/site.ts` | E-post, telefon, adress, kartlänk och texten om öppettider |
 | `content/innehall.ts` | Alla texter, trädgårdsåret, ampelstegen och tjänsterna |
 | `content/images.ts` | Alla bilder, inklusive galleriet |
 
@@ -41,7 +41,7 @@ Klart i första versionen: hela sidan, mobilanpassning, SEO-grund (titel, beskri
 Väntar på kunden:
 
 - Rättning av alla texter (de är utkast)
-- Telefonnummer och adress dit man kommer för att hämta plantor och lämna in amplar
+- Bekräfta att adressen Pellvägen 6 är där man hämtar plantor och lämnar in amplar
 - Vilka trädgårds- och skogstjänster som faktiskt erbjuds
 - När amplar kan lämnas in, och priser
 - Egna bilder till galleriet

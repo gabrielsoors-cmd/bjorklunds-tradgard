@@ -40,8 +40,14 @@ export default function Startsida() {
             logo: absoluteUrl("/logo.png"),
             image: absoluteUrl("/opengraph-image"),
             email: site.email,
-            ...(site.phone ? { telephone: site.phone } : {}),
-            address: { "@type": "PostalAddress", addressLocality: site.ort, addressRegion: site.lan, addressCountry: "SE" },
+            telephone: site.phoneTel,
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: site.gatuadress,
+              addressLocality: site.ort,
+              addressRegion: site.lan,
+              addressCountry: "SE",
+            },
             areaServed: site.ort,
             makesOffer: [
               "Egenodlade plantor och blommor",

@@ -95,7 +95,7 @@ export const galleriText = {
 
 export const kontakt = {
   rubrik: "Hör av dig",
-  text: "Vill du beställa plantor, lämna in en ampel eller ha hjälp i trädgården? Mejla oss, så svarar vi så snart vi kan.",
+  text: "Vill du beställa plantor, lämna in en ampel eller ha hjälp i trädgården? Ring eller mejla, så svarar vi så snart vi kan. Funderingar är alltid välkomna, även utanför säsongen.",
 };
 
 export const seoText = {
