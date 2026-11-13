@@ -1,4 +1,4 @@
-// Bilder. Tills Björklunds Trädgård har egna bilder används gratisbilder från Pexels
+// Bilder. Tills Älvdalens Blommor & Trädgård har egna bilder används gratisbilder från Pexels
 // (fri licens, får användas kommersiellt utan krav på källhänvisning: https://www.pexels.com/license/).
 //
 // Byta till en egen bild: lägg filen i /public/bilder/ och ersätt posten med
@@ -42,7 +42,7 @@ export const tjanstBilder = {
   skog: { pexels: 7790080, alt: "Sågning av ved i skogen" } as Photo,
 };
 
-// Galleriet ska fyllas med bilder från Björklunds egen trädgård.
+// Galleriet ska fyllas med bilder från den egna trädgården.
 // Tills de finns visar det gratisbilder.
 export const galleri: Photo[] = [
   { pexels: 29008702, alt: "Färgglada amplar i ett växthus" },

@@ -1,5 +1,5 @@
-// Texter för Björklunds Trädgård.
-// UTKAST: skrivna utifrån mötesanteckningarna. Ska läsas och rättas av Björklunds innan publicering.
+// Texter för Älvdalens Blommor & Trädgård.
+// UTKAST: skrivna utifrån mötesanteckningarna. Ska läsas och rättas av kunden innan publicering.
 
 import { amplarBild, plantorBild, sjalvplockBild, tjanstBilder, type Photo } from "./images";
 
@@ -99,7 +99,7 @@ export const kontakt = {
 };
 
 export const seoText = {
-  titel: "Björklunds Trädgård | Plantor och trädgårdstjänster i Älvdalen",
+  titel: "Älvdalens Blommor & Trädgård | Plantor, amplar och trädgårdstjänster",
   beskrivning:
     "Egenodlade plantor och blommor, amplar som planteras och färdigställs, självplock kring midsommar samt trädgårds- och skogstjänster i Älvdalen.",
 };

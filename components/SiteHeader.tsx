@@ -39,7 +39,7 @@ export function SiteHeader() {
   }, [open]);
 
   const close = () => setOpen(false);
-  const cta = { label: "Kontakta mig", href: mailto("Fråga till Björklunds Trädgård") };
+  const cta = { label: "Kontakta mig", href: mailto("Fråga till Älvdalens Blommor & Trädgård") };
 
   return (
     <>
@@ -51,9 +51,9 @@ export function SiteHeader() {
       </a>
       <header className="sticky top-0 z-50 border-b border-line bg-paper/90 backdrop-blur-md">
         <div className="behallare flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
-          <Link href="/" onClick={close} className="flex shrink-0 items-center gap-2.5" aria-label="Björklunds Trädgård, till toppen">
+          <Link href="/" onClick={close} className="flex shrink-0 items-center gap-2.5" aria-label="Älvdalens Blommor & Trädgård, till toppen">
             <Logo decorative eager sizes="44px" className="h-10 w-auto lg:h-11" />
-            <span className="font-serif text-lg text-ink">Björklunds Trädgård</span>
+            <span className="font-serif text-base text-ink sm:text-lg">Älvdalens Blommor & Trädgård</span>
           </Link>
 
           <nav aria-label="Huvudmeny" className="hidden lg:block">

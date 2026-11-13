@@ -1,6 +1,6 @@
-# Björklunds Trädgård – bjorklundstradgard.se
+# Älvdalens Blommor & Trädgård – bjorklundstradgard.se
 
-Ensidig webbplats för Björklunds Trädgård i Älvdalen: egenodlade plantor och blommor, amplar och krukor som planteras och färdigställs, självplock kring midsommar samt trädgårds- och skogstjänster.
+Ensidig webbplats för Älvdalens Blommor & Trädgård (tidigare Björklunds Trädgård) i Älvdalen: egenodlade plantor och blommor, amplar och krukor som planteras och färdigställs, självplock kring midsommar samt trädgårds- och skogstjänster.
 
 Byggd med Next.js 16 (App Router) och Tailwind CSS 4 som en statisk sajt. Publiceras på GitHub Pages via `.github/workflows/pages.yml`, som bygger och publicerar automatiskt vid varje push till `main`.
 
@@ -22,7 +22,7 @@ Bilderna hämtas och skalas om vid varje bygge av `scripts/bilder.mjs` (körs au
 | `content/innehall.ts` | Alla texter, trädgårdsåret, ampelstegen och tjänsterna |
 | `content/images.ts` | Alla bilder, inklusive galleriet |
 
-**Bilder:** tills Björklunds har egna bilder används gratisbilder från Pexels. Lägg en egen bild i `public/bilder/` och byt posten i `content/images.ts` till `{ src: "/bilder/filnamn.jpg", alt: "..." }`. Galleriet (`galleri`) ska fyllas med bilder från den egna trädgården.
+**Bilder:** tills kunden har egna bilder används gratisbilder från Pexels. Lägg en egen bild i `public/bilder/` och byt posten i `content/images.ts` till `{ src: "/bilder/filnamn.jpg", alt: "..." }`. Galleriet (`galleri`) ska fyllas med bilder från den egna trädgården.
 
 **Självplock och säsong:** när datum för självplock är klart, skriv in det i `sjalvplock` i `content/innehall.ts`.
 

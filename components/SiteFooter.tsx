@@ -15,9 +15,11 @@ export function SiteFooter() {
     <footer className="mt-auto bg-moss-deep text-paper/75">
       <div className="behallare grid grid-cols-1 gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr] lg:py-20">
         <div className="flex items-start gap-4">
-          <Logo decorative sizes="80px" className="h-20 w-auto shrink-0" />
+          <span className="shrink-0 rounded-kort bg-paper p-1.5">
+            <Logo decorative sizes="80px" className="h-20 w-auto" />
+          </span>
           <div>
-            <p className="font-serif text-xl text-paper">Björklunds Trädgård</p>
+            <p className="font-serif text-xl text-paper">Älvdalens Blommor & Trädgård</p>
             <p className="mt-2 max-w-xs text-[0.9375rem] leading-relaxed">
               Egenodlade plantor, amplar och trädgårdstjänster i {site.ort}.
             </p>
@@ -57,7 +59,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-paper/10">
         <div className="behallare flex flex-col gap-2 py-6 text-sm sm:flex-row sm:justify-between">
-          <p>© Björklunds Trädgård, enskild firma i {site.ort}. Innehar F-skatt.</p>
+          <p>© Älvdalens Blommor & Trädgård, {site.ort}</p>
           <p>Webbplatsen använder inga kakor.</p>
         </div>
       </div>

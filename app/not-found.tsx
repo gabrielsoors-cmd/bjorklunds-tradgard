@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Sidan finns inte | Björklunds Trädgård",
+  title: "Sidan finns inte | Älvdalens Blommor & Trädgård",
   robots: { index: false },
 };
 

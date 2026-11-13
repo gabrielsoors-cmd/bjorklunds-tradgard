@@ -65,7 +65,7 @@ export default function Startsida() {
             <h1 className="mt-5 text-[2.5rem] sm:text-6xl lg:text-[3.5rem]">{hero.rubrik}</h1>
             <p className="ingress mt-6 max-w-xl">{hero.ingress}</p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a href={mailto("Fråga till Björklunds Trädgård")} className="knapp">
+              <a href={mailto("Fråga till Älvdalens Blommor & Trädgård")} className="knapp">
                 Kontakta mig
               </a>
               <Link href="/#erbjudande" className="knapp knapp-ljus">
@@ -77,7 +77,7 @@ export default function Startsida() {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-stor bg-meadow lg:aspect-[4/5]">
               <Photo photo={heroBild} preload sizes="(min-width: 1024px) 50vw, 100vw" />
             </div>
-            <div className="absolute -bottom-6 left-5 hidden rounded-full bg-paper p-1.5 shadow-[0_14px_40px_-18px_rgba(29,42,32,0.5)] sm:block lg:-left-8 lg:bottom-10">
+            <div className="absolute -bottom-6 left-5 hidden rounded-kort bg-paper p-2 shadow-[0_14px_40px_-18px_rgba(29,42,32,0.5)] sm:block lg:-left-8 lg:bottom-10">
               <Logo sizes="128px" className="h-28 w-auto lg:h-32" />
             </div>
           </div>
@@ -256,7 +256,7 @@ export default function Startsida() {
           </div>
         </section>
 
-        <ContactBlock rubrik={kontakt.rubrik} text={kontakt.text} amne="Fråga till Björklunds Trädgård" knapptext="Skicka ett mejl" />
+        <ContactBlock rubrik={kontakt.rubrik} text={kontakt.text} amne="Fråga till Älvdalens Blommor & Trädgård" knapptext="Skicka ett mejl" />
       </main>
     </>
   );

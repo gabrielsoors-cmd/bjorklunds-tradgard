@@ -1,7 +1,7 @@
-// Grunduppgifter för Björklunds Trädgård. Ändra här så uppdateras hela sajten.
+// Grunduppgifter för Älvdalens Blommor & Trädgård. Ändra här så uppdateras hela sajten.
 
 export const site = {
-  name: "Björklunds Trädgård",
+  name: "Älvdalens Blommor & Trädgård",
   url: "https://bjorklundstradgard.se",
   email: "anders3449209@outlook.com",
   phone: "070-344 92 09",

@@ -13,7 +13,7 @@ const OG_IMAGE = {
   url: "/delning.png",
   width: 1200,
   height: 630,
-  alt: "Björklunds Trädgård: plantor, amplar och trädgårdstjänster i Älvdalen",
+  alt: "Älvdalens Blommor & Trädgård: plantor, amplar och trädgårdstjänster i Älvdalen",
 };
 
 // All metadata går genom den här funktionen, så att canonical och delningsbild bara finns på ett ställe.
